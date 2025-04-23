@@ -26,7 +26,7 @@ This project allows you to manage students and colleges with MongoDB as the data
 - Global exception handling
 - Basic Spring Security setup
 
---
+---
 
 
 ## 2. 🚀 Features
