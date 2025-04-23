@@ -64,43 +64,41 @@ Before running the project, ensure you have:
 ---
 
 ## 📁 Project Structure
+```
 student-details/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── com/studentsdetails/studentdetails/
-│       │       ├── config/
-│       │       │   ├── SecurityConfig.java
-│       │       │   └── SwaggerConfig.java
-│       │       ├── controller/
-│       │       │   ├── StudentController.java
-│       │       │   └── CollageController.java
-│       │       ├── dto/
-│       │       │   ├── StudentResponse.java
-│       │       │   ├── StudentListResponse.java
-│       │       │   ├── CollageResponse.java
-│       │       │   └── CollageListResponse.java
-│       │       ├── entity/
-│       │       │   ├── Students.java
-│       │       │   └── Collage.java
-│       │       ├── repository/
-│       │       │   ├── StudentRepository.java
-│       │       │   └── CollageRepository.java
-│       │       ├── service/
-│       │       │   ├── StudentService.java
-│       │       │   ├── CollageService.java
-│       │       │   ├── impl/ (or implementation classes if separated)
-│       │       │   │   ├── StudentServiceImpl.java
-│       │       │   │   └── CollageServiceImpl.java
-│       │       └── StudentDetailsApplication.java
-│       └── resources/
-│           ├── application.properties
-│           └── static/
-│
-├── .gitignore
-├── README.md
-├── pom.xml
-└── mvnw / mvnw.cmd (if using Maven wrapper)
-
-
-
+├── 📂 src/
+│   └── 📂 main/
+│       ├── 📂 java/
+│       │   └── 📂 com/studentsdetails/studentdetails/
+│       │       ├── 📂 config/
+│       │       │   ├── 🔐 SecurityConfig.java
+│       │       │   └── 📜 SwaggerConfig.java
+│       │       ├── 📂 controller/
+│       │       │   ├── 🎓 StudentController.java
+│       │       │   └── 🏫 CollageController.java
+│       │       ├── 📂 dto/
+│       │       │   ├── 📦 StudentResponse.java
+│       │       │   ├── 📦 StudentListResponse.java
+│       │       │   ├── 📦 CollageResponse.java
+│       │       │   └── 📦 CollageListResponse.java
+│       │       ├── 📂 entity/
+│       │       │   ├── 👨‍🎓 Students.java
+│       │       │   └── 🏢 Collage.java
+│       │       ├── 📂 repository/
+│       │       │   ├── 💾 StudentRepository.java
+│       │       │   └── 💾 CollageRepository.java
+│       │       ├── 📂 service/
+│       │       │   ├── ⚙️ StudentService.java
+│       │       │   ├── ⚙️ CollageService.java
+│       │       │   └── 📂 impl/
+│       │       │       ├── 🛠️ StudentServiceImpl.java
+│       │       │       └── 🛠️ CollageServiceImpl.java
+│       │       └── 🚀 StudentDetailsApplication.java
+│       └── 📂 resources/
+│           ├── ⚙️ application.properties
+│           └── 📂 static/
+├── 📄 .gitignore
+├── 📄 README.md
+├── 📄 pom.xml
+└── ▶️ mvnw / mvnw.cmd
+```
