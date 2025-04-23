@@ -18,6 +18,14 @@
 
 A Spring Boot-based RESTful API for managing student and college details using MongoDB. This project supports full CRUD operations, gender-based filtering, and includes Swagger integration for testing the endpoints.
 
+This project allows you to manage students and colleges with MongoDB as the database. It supports:
+
+- CRUD operations for Students and Colleges
+- Department and gender-based filtering
+- Swagger UI for API testing
+- Global exception handling
+- Basic Spring Security setup
+
 --
 
 
@@ -102,3 +110,31 @@ student-details/
 ├── 📄 pom.xml
 └── ▶️ mvnw / mvnw.cmd
 ```
+
+## 🔗 API Endpoints
+
+### Student Endpoints
+
+| Method | Endpoint                         | Description                  |
+|--------|----------------------------------|------------------------------|
+| POST   | `/api/student/add`              | Add a new student            |
+| GET    | `/api/student/getstudents`      | Get all students             |
+| GET    | `/api/student/getstudents/{id}` | Get student by ID            |
+| PUT    | `/api/student/updateStudent/{id}` | Update student by ID         |
+| DELETE | `/api/student/deleteStudent/{id}` | Delete student by ID         |
+
+### College Endpoints
+
+| Method | Endpoint                      | Description                  |
+|--------|-------------------------------|------------------------------|
+| POST   | `/api/college/add`           | Add a new college            |
+| GET    | `/api/college/getColleges`   | Get all colleges             |
+| GET    | `/api/college/getColleges/{id}` | Get college by ID         |
+| PUT    | `/api/college/updateCollege/{id}` | Update college by ID      |
+| DELETE | `/api/college/deleteCollege/{id}` | Delete college by ID      |
+
+---
+
+
+
+
